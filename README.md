@@ -5,7 +5,8 @@ To set up a FastAPI project and create an endpoint with request and response val
 
 #### Directory structure : 
 
-![image](https://github.com/rohanksingh/Python-Assignment/assets/31317534/91b18d53-13e9-40cb-bf4e-5674cb125764)
+![image](https://github.com/rohanksingh/Python-Assignment/assets/31317534/9311fb89-8b26-4478-b8a5-3f882858d4f5)
+
 
 app/main.py --> file inittializes the FASTAPI app and includes the routing.
 
