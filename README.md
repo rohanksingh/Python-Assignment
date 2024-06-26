@@ -16,7 +16,7 @@ app/controllers/addition_controller.py --> Here business logic performed.
 
 app/views/addition_view.py --> Here deine the routes and call the controller logic.
 
-app/utils/multiprocess_addition.py --> Here define the utility functions using multiprocessing.
+app/utils/multiprocess_addition.py --> Here define the utility functions using multiprocessing. (test cases with wide scenarios covered)
 
 app/tests/test_addition.py --> Perform unit test for the multiprocessing logic.
 
@@ -38,6 +38,8 @@ pip install -r requirements.txt
    python run.py
 
 3. Run the tests
-curl -X POST "http://127.0.0.1:8000/additions/" -H "Content-Type: application/json" -d '{"batchid": "id0101", "payload": [[1,2], [3,4]]}'
-or can use interactive documentation : http://127.0.0.1:8000/docs
+   pytest
+
+![image](https://github.com/rohanksingh/Python-Assignment/assets/31317534/5d463ea6-eab0-4bc4-ba6a-0a8de02eaddb)
+
  
