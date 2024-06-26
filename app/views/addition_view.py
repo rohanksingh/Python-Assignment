@@ -1,8 +1,10 @@
 from fastapi import APIRouter, HTTPException
-from app.models.addition import AdditionRequest, AdditionResponse
+from app.models.addition_request import AdditionRequest
+from app.models.addition_response import AdditionResponse
 from app.controllers.addition_controller import create_addition_logic
 
 router = APIRouter()
+
 
 @router.post("/", response_model=AdditionResponse)
 def create_addition(addition_request: AdditionRequest):
