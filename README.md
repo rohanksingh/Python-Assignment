@@ -22,9 +22,10 @@ app/tests/test_addition.py --> Perform unit test for the multiprocessing logic.
 
 app/config.py --> 
 
+requirements.txt --> List of all depndencies.
+
 run.py --> This file is th eentry point to run the FASTAPI application.
 
-requirements.txt --> List of all depndencies.
 
 #### For Running the application
 
