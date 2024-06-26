@@ -20,11 +20,13 @@ app/utils/multiprocess_addition.py --> Here define the utility functions using m
 
 app/tests/test_addition.py --> Perform unit test for the multiprocessing logic.
 
-app/config.py --> 
+app/config.py --> For centralized place to manage configuration settings for application.
 
 requirements.txt --> List of all depndencies.
 
 run.py --> This file is th eentry point to run the FASTAPI application.
+
+.env  --> Tjis is to define environment-specific settings, can be used for different configurations for development, testing, and production environments without changing.
 
 
 #### For Running the application
