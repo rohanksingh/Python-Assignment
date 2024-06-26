@@ -10,7 +10,7 @@ To set up a FastAPI project and create an endpoint with request and response val
 
 app/main.py --> file inittializes the FASTAPI app and includes the routing.
 
-app/models/addition.py --> Here define the Pydantic models.
+app/models/addition_request.py and addition_response.py --> Here define the Pydantic models.
 
 app/controllers/addition_controller.py --> Here business logic performed.
 
@@ -18,7 +18,9 @@ app/views/addition_view.py --> Here deine the routes and call the controller log
 
 app/utils/multiprocess_addition.py --> Here define the utility functions using multiprocessing.
 
-app/tests/test_multiprocess_addition.py --> Perform unit test for the multiprocessing logic.
+app/tests/test_addition.py --> Perform unit test for the multiprocessing logic.
+
+app/config.py --> 
 
 run.py --> This file is th eentry point to run the FASTAPI application.
 
