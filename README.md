@@ -24,7 +24,7 @@ app/config.py --> For centralized place to manage configuration settings for app
 
 requirements.txt --> List of all dependencies.
 
-run.py --> This file is th eentry point to run the FASTAPI application.
+run.py --> This file is th entry point to run the FASTAPI application.
 
 .env  --> This is to define environment-specific settings, can be used for different configurations for development, testing, and production environments without changing.
 
